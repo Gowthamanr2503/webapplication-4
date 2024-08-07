@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.name-care {
+    color: coral;
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.name-taker {
+    color: deepskyblue;
+    font-family: "cursive";
+    font-family: cursive;
+}
+
+.first-page {
+    height: auto;
+    padding: 10px;
+}
+
+.image-size-first {
+    height: 400px;
+    width: 530px;
+}
+
+.button-content {
+    padding: 10px;
+    width: 20vw;
+    text-align: center;
+    height: 4vh;
+    color: white;
+    background-color: deepskyblue;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: "Verdana";
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.button-content:hover {
+    background-color: coral;
+    color: black;
+    border-color: red;
+    height: 5vh;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.direction-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second-page-care {
+    height: 100vh;
+}
+
+.sign-up-design {
+    font-family: "Bree serif";
+    text-align: right;
+    margin-right: 5rem;
+    text-decoration: underline;
+    color: coral;
+}
+
+.label-value {
+    text-align: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.input-value {
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+}
+
+.box-of-signup {
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-bottom: none;
+    border-color: coral;
+}
+.bg-content-signup {
+    background-color: white;
+    height: 100vh;
+}
+
+.sign-up-design {
+    font-family: "Bree serif";
+    text-align: right;
+    margin-right: 5rem;
+    text-decoration: underline;
+    color: coral;
+}
+
+.create-button{
+    height: 6vh;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: black;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.form {
+    font-family: Times New Roman;
+}
+
+.centered-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: 0px;
+    border-radius: 10px;
+}
+
+.centered-container form {
+    display: inline-block;
+    text-align: left;
+}
+
+.centered-container label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.centered-container input,
+.centered-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.centered-container input[type="submit"] {
+    width: 100px;
+    background-color: deepskyblue;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.centered-container input[type="submit"]:hover {
+    background-color: blue;
+}
+
+.bg-health {
+    height: 100vh;
+    padding: 10px;
+}
+
+.heading_health {
+    color: deepskyblue;
+    font-family: "Roboto";
+}
+
+.navbar-nav-hover:hover {
+    background-color: coral;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+
+.box-name-details {
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.name-care {
+    color: coral;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.name-taker {
+    color: deepskyblue;
+    font-family: "cursive";
+    font-family: cursive;
+}
+
+.box-health-water {
+    height: 30vh;
+    width: 30rem;
+    margin: 4vh;
+    margin-right: 5rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.image-size-health {
+    height: 20vh;
+    border-top-left-radius: 10px;
+}
+
+span {
+    margin-top: 5px;
+}
+
+.box-count {
+    border-style: solid;
+    width: 6vh;
+    height: 4vh;
+    text-align: center;
+    border-width: 2px;
+    margin-top: 5px;
+    margin: 1px;
+    font-family: "cursive";
+    font-weight: bold;
+}
+
+.duration-time {
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+
+.para-health {
+    font-family: "Roboto";
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+}
+
+.health-name {
+    font-family: "Bree Serif";
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+
+
+
+.bg-hospitals {
+    height: 100vh;
+}
+
+.heading_health {
+    color: deepskyblue;
+    font-family: "Roboto";
+    text-decoration: underline;
+}
+
+.name-care {
+    color: coral;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.name-taker {
+    color: deepskyblue;
+    font-family: "cursive";
+    font-family: cursive;
+}
+
+.heading_health {
+    color: deepskyblue;
+    font-family: "Roboto";
+}
+
+.navbar-nav-hover:hover {
+    background-color: coral;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+
+select {
+    height: 7vh;
+    width: 30vw;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: grey;
+}
+
+.card-img {
+    height: 25vh;
+}
+
+.button-content {
+    border-radius: 10px;
+    width: 15vw;
+    margin: 8px;
+    background-color: coral;
+    padding: 5px;
+    border-style: dashed;
+}
+
+.button-content:hover {
+    background-color: deepskyblue;
+}
+
+.a-tag {
+    color: white;
+}
+
+.box-all-combine {
+    padding: 10px;
+    height: 25vh;
+    transition: all 0px;
+    margin: 5px;
+}
+.box-all-combine:hover{
+    margin: 14px;
+    transition: all 0.5px ;
+    cursor: auto;
+}
+.image-all-boxes {
+    height: 20vh;
+    aspect-ratio: 3/4;
+}
+
+.name-all-boxes {
+    font-weight: bold;
+}
+
+.anchor-all-boxes {
+    font-size: 12px;
+}
+
+.scrol-info {
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: end;
+}
+
+.camera-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.input-value-camera[type="text"] {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.button-content-camera {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item p {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

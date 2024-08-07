@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="all_code.css">
+</head>
+<body>
+    <div class="bg-health">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button><a class="navbar-brand" href="C:\Users\admin\OneDrive\Desktop\caretaker-new-app-making\first-page.html">
+                <h4 class="name-care">Care<span class="name-taker">Taker</span></h4>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mt-2">
+                    <a class="nav-link active navbar-nav-hover" href="C:\Users\admin\OneDrive\Desktop\caretaker-new-app-making\hospitals.html">HEALTH <span class="sr-only">(current)</span></a>
+                    
+                    <a class="nav-link navbar-nav-hover" href="C:\Users\admin\OneDrive\Desktop\caretaker-new-app-making\camera-recors.html">PREVIOUS RECORDS</a>
+                    <a class="nav-link navbar-nav-hover" href="C:\Users\admin\OneDrive\Desktop\caretaker-new-app-making\hospitals.html">HOSPITALS</a>
+                    <div class="d-flex flex-row justify-content-end">
+                        <a class="btn btn-outline-danger p-2 col-2 mt-3 " href="C:\Users\admin\OneDrive\Desktop\caretaker-new-app-making\first-page.html" type="submit">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+    
+    <div class="camera-container">
+        <input type="file" accept="image/*" class="input-value-camera btn btn-info" capture="environment" id="cameraInput">
+        <input type="text" id="imageName" class="input-value-camera" placeholder="Enter name">
+        <button id="saveButton" class="btn btn-primary button-content-camera">Save</button>
+        <h2>Your Records</h2>
+        <div class="gallery " id="gallery"></div>
+    </div>
+</div>
+    <script src="javascript.js"></script>
+</body>
+</html>
